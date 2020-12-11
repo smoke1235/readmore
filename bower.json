@@ -1,0 +1,24 @@
+{
+  "name": "readmore",
+  "homepage": "https://github.com/smoke1235/readmore",
+  "authors": [
+    "Peter Donders"
+  ],
+  "description": "Readmore functionalty. Uses jQuery.",
+  "main": [
+    "./dist/js/readmore.js",
+    "./dist/css/readmore.css"
+  ],
+  "keywords": [
+    "readmore"
+  ],
+  "license": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "jquery": ">2"
+  }
+}
