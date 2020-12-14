@@ -1,5 +1,5 @@
 /*!
- * readMore v1.0.0
+ * readMore v1.0.1
  * by Peter Donders
  *
  * More info:
@@ -77,12 +77,11 @@
 
         // measure how tall inside should be by adding together heights of all inside paragraphs (except read-more paragraph)
         $ps.each(function() {
-            console.log(jQuery(this).outerHeight());
             totalHeight += jQuery(this).outerHeight();
             // FAIL totalHeight += $(this).css("margin-bottom");
         });
 
-        totalHeight -= this.options.extraHight;
+        totalHeight += this.options.extraHight;
 
         $up
             .css({
